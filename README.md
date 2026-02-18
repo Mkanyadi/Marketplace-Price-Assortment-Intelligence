@@ -32,3 +32,9 @@ Ruleaza notebook-ul in Google Colab / Jupyter.
 - results/top_opportunities.csv
 - results/opportunity_summary_by_model_key.csv
 - results/opportunity_summary_by_car_type.csv
+
+## Nota despre modele (important)
+- Modelul de regresie pentru pret (price_model.pkl) NU este inclus in repository deoarece depaseste limita de upload din browser (25MB).
+- Modelul se poate recrea prin rularea notebook-ului (celulele de training), apoi se salveaza local in folderul `models/`.
+- Modelul de clasificare (opportunity_model.pkl) este inclus in repo.
+
