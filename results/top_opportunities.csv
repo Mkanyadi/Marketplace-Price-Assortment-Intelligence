@@ -1,0 +1,21 @@
+Unnamed: 0,model_key,mileage,engine_power,fuel,paint_color,car_type,private_parking_available,has_gps,has_air_conditioning,automatic_car,has_getaround_connect,has_speed_regulator,winter_tires,rental_price_per_day,supply_count,pred_price,opportunity,opp_pred
+4753,BMW,72515,135,diesel,blue,suv,False,False,True,False,False,False,False,422,827,325.62333333333333,0,1
+4684,SEAT,103222,140,diesel,grey,suv,True,True,False,False,True,False,True,378,46,285.52666666666664,1,1
+4146,Suzuki,2970,423,petrol,red,suv,True,True,True,False,False,False,True,287,8,267.8433333333333,1,1
+4731,Toyota,4530,230,diesel,silver,suv,True,True,False,True,False,False,False,270,53,265.14666666666665,1,1
+2938,Renault,-64,230,diesel,black,sedan,True,True,False,True,False,False,True,274,916,264.94,0,1
+3345,Maserati,25571,235,diesel,black,sedan,True,True,False,True,False,False,True,261,18,259.74666666666667,1,1
+3320,Maserati,25858,235,diesel,black,sedan,True,True,False,True,False,False,True,261,18,259.64666666666665,1,1
+3595,Maserati,34624,235,diesel,grey,sedan,True,True,True,True,False,True,True,262,18,255.36333333333334,1,1
+90,Renault,12402,170,hybrid_petrol,grey,coupe,True,True,False,False,False,False,False,309,916,252.75,0,1
+4749,Subaru,29460,280,diesel,white,suv,True,True,True,True,False,True,True,258,44,252.25666666666666,1,1
+3069,Maserati,42655,235,diesel,grey,sedan,True,True,True,True,False,False,True,256,18,248.62333333333333,1,1
+4621,Subaru,10955,190,diesel,black,suv,True,True,True,True,False,True,True,247,44,240.13,1,1
+4513,Subaru,35025,230,diesel,grey,suv,True,True,True,False,True,False,True,250,44,238.35666666666665,1,1
+4614,Mitsubishi,24912,230,diesel,white,suv,True,True,True,True,False,False,True,236,231,237.89333333333335,1,1
+4235,Subaru,47417,230,diesel,black,suv,True,True,True,True,False,True,True,244,44,237.75333333333333,1,1
+4743,Subaru,52777,230,diesel,grey,suv,True,True,False,True,False,False,True,246,44,237.16666666666666,1,1
+4140,Subaru,42318,230,diesel,grey,suv,True,True,True,True,False,False,True,235,44,236.25,1,1
+3829,Suzuki,39725,280,diesel,black,suv,False,True,False,True,True,True,True,254,8,235.76666666666668,1,1
+4110,Toyota,25931,190,diesel,white,suv,True,True,False,False,False,False,True,251,53,235.69,1,1
+2678,Audi,5578,195,diesel,grey,sedan,True,True,True,False,False,True,True,250,526,235.25666666666666,1,1
