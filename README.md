@@ -1,10 +1,12 @@
-# Price Prediction + Opportunity Detection (ML End-to-End)
+"""# Price Prediction + Opportunity Detection (ML End-to-End)
 
 ## Problema
 Proiectul estimeaza pretul de inchiriere pe zi (regresie) si identifica oportunitati (clasificare) pentru nise cu oferta mica si pret potential mare.
 
 ## Dataset
-- Sursa: HuggingFace dataset (car rental)
+- Sursa: https://huggingface.co/datasets/flodussart/get_around_pricing_optimization
+- Dimensiune: ~4.8k randuri, 15 coloane
+- Ce contine: date despre anunturi de inchiriere auto (caracteristici precum model_key, car_type, mileage, engine_power, fuel etc.) si pretul pe zi (rental_price_per_day).
 - Target regresie: rental_price_per_day
 - Label clasificare: opportunity (definit heuristic: supply mic + pret estimat mare)
 
@@ -15,7 +17,7 @@ Proiectul estimeaza pretul de inchiriere pe zi (regresie) si identifica oportuni
 4. Model 2 (Clasificare): LogisticRegression pentru opportunity + Confusion Matrix
 5. Export rezultate (CSV) si salvare modele (PKL)
 
-## Rezultate 
+## Rezultate
 - Regresie:
   - Ridge: MAE=12.117, RMSE=17.970
   - RandomForest: MAE=10.740, RMSE=16.941 (model final)
@@ -23,7 +25,7 @@ Proiectul estimeaza pretul de inchiriere pe zi (regresie) si identifica oportuni
   - Accuracy=0.9866, Precision=0.9613, Recall=0.9551, F1=0.9582
 
 ## Cum rulezi
-pip install -r requirements.txt
+pip install -r requirements.txt  
 Ruleaza notebook-ul in Google Colab / Jupyter.
 
 ## Fisiere generate
@@ -37,4 +39,4 @@ Ruleaza notebook-ul in Google Colab / Jupyter.
 - Modelul de regresie pentru pret (price_model.pkl) NU este inclus in repository deoarece depaseste limita de upload din browser (25MB).
 - Modelul se poate recrea prin rularea notebook-ului (celulele de training), apoi se salveaza local in folderul `models/`.
 - Modelul de clasificare (opportunity_model.pkl) este inclus in repo.
-
+"""
